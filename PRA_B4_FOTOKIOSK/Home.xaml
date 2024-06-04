@@ -9,6 +9,7 @@
     <Grid>
         <TabControl>
 
+            <!-- Tab voor Foto's -->
             <TabItem Header="Foto's">
                 <Grid>
                     <ScrollViewer Margin="10,38,10,43">
@@ -18,6 +19,8 @@
                     <Button x:Name="btnRefresh" Content="Refresh" HorizontalAlignment="Left" Margin="10,998,0,0" VerticalAlignment="Top" Width="83" Height="28" Click="btnRefresh_Click"/>
                 </Grid>
             </TabItem>
+
+            <!-- Tab voor Kassa -->
             <TabItem Header="Kassa">
                 <Grid>
                     <Label Content="Foto-id:" HorizontalAlignment="Left" Margin="100,192,0,0" VerticalAlignment="Top" Height="24" Width="255"/>
@@ -33,6 +36,8 @@
                     <Button x:Name="btnSave" Content="Bon Opslaan" HorizontalAlignment="Left" Margin="10,998,0,0" VerticalAlignment="Top" Width="83" Height="28" Click="btnSave_Click"/>
                 </Grid>
             </TabItem>
+
+            <!-- Tab voor Zoeken -->
             <TabItem Header="Zoeken">
                 <Grid>
                     <Label Content="Zoeken:" HorizontalAlignment="Left" Margin="100,53,0,0" VerticalAlignment="Top" Height="24" Width="255"/>
@@ -45,3 +50,4 @@
         </TabControl>
     </Grid>
 </Window>
+
